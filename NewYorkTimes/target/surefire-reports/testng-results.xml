@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Automation Script " duration-ms="5422" started-at="2019-03-13T22:19:09Z" finished-at="2019-03-13T22:19:15Z">
+    <groups>
+    </groups>
+    <test name="New York Times Home" duration-ms="5422" started-at="2019-03-13T22:19:09Z" finished-at="2019-03-13T22:19:15Z">
+      <class name="title.TitleTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:title.TitleTest@13fee20c]" name="setUp" is-config="true" duration-ms="5192" started-at="2019-03-13T22:19:09Z" finished-at="2019-03-13T22:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.nytimes.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:title.TitleTest@13fee20c]" name="test" duration-ms="7" started-at="2019-03-13T22:19:15Z" finished-at="2019-03-13T22:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:title.TitleTest@13fee20c]" name="cleanUp" is-config="true" duration-ms="206" started-at="2019-03-13T22:19:15Z" finished-at="2019-03-13T22:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- title.TitleTest -->
+    </test> <!-- New York Times Home -->
+  </suite> <!-- Amazon Automation Script  -->
+</testng-results>
